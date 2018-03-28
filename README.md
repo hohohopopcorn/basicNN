@@ -1,6 +1,9 @@
 # basicNN
 Neural Networks that can approximate any functions given a sample of data points. These Neural Network uses Conjugate Gradient as an update method and is written in C. Must include the INPUT.txt in the same folder as the .cpp file.
 
+This code was used to generate the data in this research paper:
+https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.150601#fulltext
+
 # INPUT.txt
 Must include the following:
 trainfile - training file name
