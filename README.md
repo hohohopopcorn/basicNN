@@ -7,18 +7,20 @@ https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.150601#fulltext
 Last change since August 2016
 
 # INPUT.txt
-Must include the following
-trainfile - training file name
-OPTION - which method of training (mentioned more below)
-ITERATIONS - number of iterations to run
-SAVE - save progress every mentioned iterations
-CUTOFF - number of maximum conjugate gradients to compute before ending iteration
+Must include the following:
 
-Possible OPTIONs
--2 = training network with old weights + noise
--1 = training network with old weights
- 0 = output cost function of data with old weights
- 1 = training network with new weights
+    trainfile - training file name
+    OPTION - which method of training (mentioned more below)
+    ITERATIONS - number of iterations to run
+    SAVE - save progress every mentioned iterations
+    CUTOFF - number of maximum conjugate gradients to compute before ending iteration
+
+Possible OPTIONs:
+
+    -2 = training network with old weights + noise
+    -1 = training network with old weights
+     0 = output cost function of data with old weights
+     1 = training network with new weights
 
 To add old weights, follow the output weight's format. An example is shown in the sample INPUT.txt.
 
