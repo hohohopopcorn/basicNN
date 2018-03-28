@@ -15,10 +15,10 @@ SAVE - save progress every mentioned iterations
 CUTOFF - number of maximum conjugate gradients to compute before ending iteration
 
 Possible OPTIONs:
--2 : training network with old weights + noise
--1 : training network with old weights
- 0 : output cost function of data with old weights
- 1 : training network with new weights
+-2 = training network with old weights + noise
+-1 = training network with old weights
+ 0 = output cost function of data with old weights
+ 1 = training network with new weights
 
 To add old weights, follow the output weight's format. An example is shown in the sample INPUT.txt.
 
