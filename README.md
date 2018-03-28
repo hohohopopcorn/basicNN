@@ -4,6 +4,8 @@ Neural Networks that can approximate any functions given a sample of data points
 This code was used to generate the data in this research paper:
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.150601#fulltext
 
+Last change since August 2016
+
 # INPUT.txt
 Must include the following:
 trainfile - training file name
